@@ -1,6 +1,9 @@
 package com.neued.test;
 
-public class Mybook {
+import java.io.Serializable;
+
+public class Mybook implements Serializable {
+    private static final long serialVersion=1L;
     private String name;
     private double price;
     private String press;
